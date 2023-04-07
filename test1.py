@@ -29,7 +29,6 @@ if __name__ == '__main__':
     wb1_s0 = workbook1.worksheets[0]
     wb1_s1 = workbook1.worksheets[1]
     wb1_s2 = workbook1.worksheets[2]
-
     max_row = wb0_s0.max_row
     max_column = wb0_s0.max_column
     for i in range(1, max_row):
